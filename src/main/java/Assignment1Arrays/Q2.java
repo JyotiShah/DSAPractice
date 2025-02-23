@@ -7,4 +7,13 @@ public class Q2 {
             System.out.println(a+" "+b+" ");
         System.out.println(a+" "+b);
     }
+
+    public void arrays(){
+        char[] arr = new char[]{'a', 'b','c'};
+        try {
+            System.out.println(arr.length);
+        }catch (Exception exception){
+            exception.printStackTrace();
+        }
+    }
 }
